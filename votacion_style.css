@@ -78,6 +78,13 @@ header img {
 header span {
     font-size: 0;
 }
+
+@media (min-width: 768px){
+span a.btn-fb, span a.btn-twt, span a.btn-wsp {
+    background-size: cover;
+    background-color: #fff;
+    border-radius: 50%;}
+}
 span a.btn-fb {
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -91,7 +98,7 @@ span a.btn-wsp {
     background-repeat: no-repeat;
 }
 .right span a {
-    background-image: url(https://s3.amazonaws.com/glr-demo/2020/04/13/icons-white-1586816732.svg);
+    background-image: url(https://files.larepublica.pe/Larepublica/2020/11/09/iconos-redes-sociales-blanco-1604962294.svg);
 }
 span [class*="btn-"] {
     display: inline-block;
